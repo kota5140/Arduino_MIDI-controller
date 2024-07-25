@@ -36,7 +36,7 @@
 3. Loop MIDI を起動し，MIDI 通信の仮想ポートを作成．
 4. rekordbox を起動し，MIDI LEARN[^1]モードで MIDI 信号と DJ 機能のマッピング[^2]を行う．
 
-- 接続する MIDI コントローラを Loop MIDI に設定．
+   - 接続する MIDI コントローラを Loop MIDI に設定．
 
 5. Hairless Midiserial を用いて，Arduino UNO R3 と Loop MIDI を接続する．
    - Hairless Midiserial の設定は以下の通り．
