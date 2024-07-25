@@ -35,8 +35,10 @@
 2. Arduino IDE を用いて，MyController.ino で示されるスケッチを書き込む．
 3. Loop MIDI を起動し，MIDI 通信の仮想ポートを作成．
 4. rekordbox を起動し，MIDI LEARN[^1]モードで MIDI 信号と DJ 機能のマッピング[^2]を行う．
-
    - 接続する MIDI コントローラを Loop MIDI に設定．
+
+[^1]: MIDI LEARN とは，MIDI 信号と DJ 機能のマッピングを行う機能である．この機能を使用するためには，AlphaTheta 社指定機器の接続や rekordbox の有料プランへの加入が必要である．（著者は DDJ-FLX4 を所持．）
+[^2]: DDJ-FLX4 の場合，[MIDI メッセージ一覧](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_midi_message_list_j1.pdf)がオンライン上で公開されている．
 
 5. Hairless Midiserial を用いて，Arduino UNO R3 と Loop MIDI を接続する．
    - Hairless Midiserial の設定は以下の通り．
